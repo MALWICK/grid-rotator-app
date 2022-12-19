@@ -1,16 +1,16 @@
 const btn1 = document.getElementById('button1');
-let btn2 = document.getElementById('button2');
-let btn3 = document.getElementById('button3');
-let btn4 = document.getElementById('button4');
-let btn6 = document.getElementById('button6');
-let btn7 = document.getElementById('button7');
-let btn8 = document.getElementById('button8');
-let btn9 = document.getElementById('button9');
+const btn2 = document.getElementById('button2');
+const btn3 = document.getElementById('button3');
+const btn4 = document.getElementById('button4');
+const btn6 = document.getElementById('button6');
+const btn7 = document.getElementById('button7');
+const btn8 = document.getElementById('button8');
+const btn9 = document.getElementById('button9');
 const rotateNumber = document.querySelectorAll('.numchanger');
 let btn5 = document.querySelector('.numberchanger');
 console.log(btn5);
 
-let list = [1, 2, 3, 6, 9, 8, 7, 4];
+const list = [1, 2, 3, 6, 9, 8, 7, 4];
 
 btn5.addEventListener('click', function () {
   reverseNumber();
@@ -18,7 +18,7 @@ btn5.addEventListener('click', function () {
 });
 
 function reverseNumber() {
-  let index1 = list.pop();
+  const index1 = list.pop();
   list.unshift('index1');
 }
 
@@ -30,7 +30,7 @@ for (i of rotateNumber) {
 }
 
 function antiWise() {
-  let index1 = list.shift();
+  const index1 = list.shift();
   list.push('index1');
 }
 
