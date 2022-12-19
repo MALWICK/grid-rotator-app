@@ -20,13 +20,13 @@ h1 {
   padding: 2%;
   position: relative;
   top: 15vh;
-  height: 55vh;
+  height: 50vh;
   margin: auto;
-  max-width: 30%;
+  max-width: 25%;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-auto-rows: 30px;
-  grid-gap: 8px;
+  /*  grid-auto-rows: 25px; */
+  grid-gap: 5%;
   border-radius: 1%;
   border: 20px solid black;
 }
@@ -39,23 +39,28 @@ h1 {
 }
 
 .content button {
-  border: 1px solid pink;
-  background-color: #0f0b0b;
-  color: white;
-  font-size: small;
-  height: 30px;
-  width: 25px;
+  border: 3px solid rgb(5, 4, 4);
+  background-color: #fff;
+  color: #120e0e;
+  font-size: large;
+  height: 12vh;
+  width: 100%;
   border-radius: 50%;
 }
 
-@media(max-width: 768px){
-  .content{
-    height: 30vh;
-    gap: 10%;
+button:hover {
+  background: black;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 70vw;
+    height: 50vh;
+    gap: 5%;
   }
 
   .content button {
     width: 100%;
-    
   }
 }

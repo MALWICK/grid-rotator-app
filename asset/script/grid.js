@@ -1,4 +1,3 @@
-//here i am creating new variable that my javascript that recognised them
 let btn1 = document.getElementById("1");
 let btn2 = document.getElementById("2");
 let btn3 = document.getElementById("3");
@@ -12,17 +11,15 @@ let btn5 = document.querySelector(".numberChanger");
 console.log(btn5);
 
 let list = [1, 2, 3, 6, 9, 8, 7, 4];
-// here i am adding an event listener to my bottun 5 so that when its biegn clicked it generates an event
 
 btn5.addEventListener("click", function () {
-  // here i am calling my functions which has the logic to rotate my numbers
   reverseNumber();
   rotate();
 });
 
 function reverseNumber() {
-  let index1 = list.pop(); //pop removes the last item of our array and stores it
-  list.unshift(index1); //while unshift puts our items that was biegn removed at th begining of our array
+  let index1 = list.pop();
+  list.unshift(index1);
 }
 
 for (i of rotateNumber) {
