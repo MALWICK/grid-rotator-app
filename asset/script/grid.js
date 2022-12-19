@@ -33,6 +33,7 @@ function antiWise() {
   let index1 = list.shift();
   list.push('index1');
 }
+
 function rotate() {
   btn1.innerHTML = list[0];
   btn2.innerHTML = list[1];
