@@ -5,7 +5,7 @@
 }
 
 body {
-  background: rgb(232, 172, 182);
+  background: #e8acb6;
   align-items: center;
   text-align: center;
 }
@@ -25,21 +25,20 @@ h1 {
   max-width: 25%;
   display: grid;
   grid-template-columns: auto auto auto;
-  /*  grid-auto-rows: 25px; */
   grid-gap: 5%;
   border-radius: 1%;
   border: 20px solid black;
 }
 
-.numChanger,
-.numberChanger {
+.numchanger,
+.numberchanger {
   border: 1px solid black;
-  color: rgb(23, 18, 18);
+  color: #171212;
   border-radius: 10px;
 }
 
 .content button {
-  border: 3px solid rgb(5, 4, 4);
+  border: 3px solid #050404;
   background-color: #fff;
   color: #120e0e;
   font-size: large;
