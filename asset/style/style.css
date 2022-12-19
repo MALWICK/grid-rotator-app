@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #e8acb6;
+  background: #7b565c;
   align-items: center;
   text-align: center;
 }
@@ -16,7 +16,7 @@ h1 {
 }
 
 .content {
-  background-color: #aee7e7;
+  background-color: #fbfbfb;
   padding: 2%;
   position: relative;
   top: 15vh;
