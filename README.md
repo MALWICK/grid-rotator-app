@@ -30,12 +30,12 @@ This project provide information about a rotating borad with the numbers rotatin
 ## CLONE PROJECT
 
     - To get a local copy up and running follow these simple example steps.
-    - Clone this repository with `https://github.com/MALWICK/food-page` using your terminal or command line.
+    - Clone this repository with `https://github.com/MALWICK/grid-rotator-app/pulls` using your terminal or command line.
     - Change to the project directory by entering: - $ `cd cv ` in the terminal.
 
 ## Live site
 
-[Link](https://malwick.github.io/cv-page-html/)
+[Link](https://malwick.github.io/grid-rotator-app/)
 
 ## CONTRIBUTION
 
